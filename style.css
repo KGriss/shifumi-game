@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'action_manregular';
+    src: url('fonts/action_man.eot');
+    src: url('fonts/action_man.eot?#iefix') format('embedded-opentype'),
+         url('fonts/action_man.woff2') format('woff2'),
+         url('fonts/action_man.woff') format('woff'),
+         url('fonts/action_man.ttf') format('truetype'),
+         url('fonts/action_man.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#page {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: #BB0000;
+}
+
+* {
+	font-family: action_manregular, "comic sans ms", arial, sans-serif;
+	text-align: center;
+	color: #D6BA00;
+}
+
+h1 {
+	font-family: "comic sans ms", action_manregular, arial, sans-serif;
+	font-size: 3.2em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+h2 {
+	font-size: 1.7em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+header {
+	padding-bottom: 20px;
+	border-bottom: #D6BA00 solid 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+
+.shifumi {
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	
+	background-color: #D00000;
+	border: #D6BA00 solid 3px;
+	border-radius: 12px;
+	outline: none;
+	height: 40px;
+	width: 150px;
+	font-size: 1.3em;
+}
+
+.shifumi:hover {
+	background-color: #D6BA00;
+	color: #BB0000;
+}
+
+#result_block {
+	font-size: 1.3em;
+	width: 325px;
+	height:90px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D6BA00;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#result_block p {
+	color: #BB0000;
+	margin: 0px;
+	padding: 0px;
+}
+
+#points_block p {
+	
+}
+
+#points_block #score {
+	font-size: 2.5em;
+}
+
+#end_block h4 {
+	font-size: 3em;
+}
+
+#end_block #reset {
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	
+	background-color: #D00000;
+	border: #D6BA00 solid 3px;
+	border-radius: 12px;
+	outline: none;
+	height: 40px;
+	width: 150px;
+	font-size: 1.3em;
+}
+
+#end_block #reset:hover {
+	background-color: #D6BA00;
+	color: #BB0000;
+}
